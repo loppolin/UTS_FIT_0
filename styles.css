@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.25em;
+    align-items: flex-start;
+}
+
+.section img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 1em;
+    margin-top: 0em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section .text {
+    max-width: 60%;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+}
+
+#how-it-works p {
+    margin-bottom: 20px;
+}
+
+#technologies p {
+    margin-bottom: 20px;
+}
+
+#advantages-limitations1 p {
+    margin-bottom: 20px;
+}
+
+#advantages-limitations2 p {
+    margin-bottom: 20px;
+}
+
+#future p {
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 225px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
